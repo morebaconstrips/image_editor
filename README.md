@@ -32,3 +32,7 @@ Example: `python3 editor.py -g tiger.png grey_tiger.png`
 ![alt text](tiger.png  "tiger.png")
 ![alt text](grey_tiger.png  "grey_tiger.png")
 
+
+## Contribute!
+All contributions are welcome!
+
