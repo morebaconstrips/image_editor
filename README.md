@@ -15,6 +15,16 @@ Option         Long option             Meaning
 Note: Please, make sure you have installed python3!
 
 
+### How to use it
+
+Open the terminal and type following commands:
+
+- `apt update`
+- `apt install git`
+- `git clone https://github.com/morebaconstrips/image_editor.git`
+- `cd image_editor`
+
+
 `Usage: python3 editor.py [OPTION] <IMAGE_NAME> <NEW_NAME>`
 
 Example: `python3 editor.py -g tiger.png grey_tiger.png`
