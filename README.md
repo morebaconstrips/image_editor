@@ -8,9 +8,9 @@ Option         Long option             Meaning
 -g             --grey                  Make the image black and white
 -i             --inverse               Invert the colors
 -m             --mirror                Mirror the image
--r90           --rotate90              Rotate the image by 90° to the right
--r180          --rotate180             Rotate the image by 180° to the right
--r270          --rotate270             Rotate the image by 270° to the right
+-r             --right                 Rotate the image by 90° to the right
+-u             --upside                Rotate the image upside-down
+-l             --left                  Rotate the image by 90° to the left
 ```
 
 ## How to use it
