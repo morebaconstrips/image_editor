@@ -28,3 +28,8 @@ Open the terminal and type following commands:
 `Usage: python3 editor.py [OPTION] <IMAGE_NAME> <NEW_NAME>`
 
 Example: `python3 editor.py -g tiger.png grey_tiger.png`
+
+
+![alt text](tiger.png  "tiger.png")
+![alt text](grey_tiger.png  "grey_tiger.png")
+
