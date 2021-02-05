@@ -12,15 +12,14 @@ Option         Long option             Meaning
 -r180          --rotate180             Rotate the image by 180° to the right
 -r270          --rotate270             Rotate the image by 270° to the right
 ```
-Note: Please, make sure you have installed python3!
 
-
-### How to use it
+## How to use it
 
 Open the terminal and type following commands:
 
-- `apt update`
-- `apt install git`
+- `sudo apt update`
+- `sudo apt install python3.8`
+- `sudo apt install git`
 - `git clone https://github.com/morebaconstrips/image_editor.git`
 - `cd image_editor`
 
