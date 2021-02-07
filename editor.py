@@ -19,10 +19,6 @@ def save(img, filename):
     pngimg.save(filename)
 
 
-#######################################################
-#######################################################
-
-
 def grayscale(img):
     gray = []
     for line in img:
@@ -34,17 +30,11 @@ def grayscale(img):
     return gray
 
 
-#######################################################
-
-
 def inverse(img):
     return [
         [(255 - r, 255 - g, 255 - b) for r, g, b in row]
         for row in img
     ]
-
-
-#######################################################
 
 
 def mirror(img):
@@ -54,15 +44,9 @@ def mirror(img):
     ]
 
 
-#######################################################
-
-
 def right(img):
     h, w = len(img), len(img[0])
     return [[img[h - x - 1][y] for x in range(h)] for y in range(w)]
-
-
-#######################################################
 
 
 def upside_down(img):
@@ -73,8 +57,6 @@ def upside_down(img):
             ret[y][x] = img[h - 1 - y][x]
     return ret
 
-
-#######################################################
 
 def left(img):
     h, w = len(img), len(img[0])
